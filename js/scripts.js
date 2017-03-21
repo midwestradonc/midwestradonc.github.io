@@ -27,8 +27,6 @@ $('html, body').animate({
     return false;
 });
 
-
-
 $('#gform').on('submit', function(e) {
     $('#gform-container').hide();
     $('#gform-success').prepend('Thank you.  Your message has been submitted.  Someone will contact you shortly.');
