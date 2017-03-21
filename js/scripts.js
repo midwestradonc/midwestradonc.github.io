@@ -27,8 +27,7 @@ $('html, body').animate({
     return false;
 });
 
-/* gform */
-var submitted = false;
+
 
 $('#gform').on('submit', function(e) {
     $('#gform-container').hide();
