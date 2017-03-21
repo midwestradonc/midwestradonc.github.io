@@ -33,6 +33,9 @@ $('#gform').on('submit', function(e) {
     $('#gform-container').hide();
     $('#gform-success').prepend('Thank you.  Your message has been submitted.  Someone will contact you shortly.');
     $('#gform-success').show();
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 750);
 });
 
 $('#gform-dedicated').on('submit', function(e) {
